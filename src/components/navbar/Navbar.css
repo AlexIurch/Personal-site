@@ -9,14 +9,50 @@
     text-align: center;
     color: aliceblue;
     background-color:#272d32;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.3em;
     margin-bottom: 0;
-    margin-left: auto;
     margin-right: auto;    
 }
 
+img{
+    width: 15px;
+}
 
 .brand{
     margin-left: 0%; 
 }
+
+.greenCircle {
+
+    height: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    width: 12px;
+    border-radius: 10px;
+    background: #1AEF56;
+}
+.headerOnline{
+ background-color: #272d32;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar-toggler {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar-toggler:hover {
+    background-color: #555;
+  }
+
+  .navbar-toggler {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-toggler.animate {
+    transform: rotate(90deg);
+  }
