@@ -1,0 +1,11 @@
+.mainBlock{
+      /* display: block; */
+    /* position: relative; */
+    grid-area: m;
+    /* height: 1fr; */
+    background: #F5F5F5;
+    /* height: fit-content; */
+    min-height: 1700px;
+    width: 90%;
+    margin: 0 auto;
+}

@@ -56,3 +56,21 @@ img{
   .navbar-toggler.animate {
     transform: rotate(90deg);
   }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: none;
+    margin-bottom: 2px;
+    padding-bottom: 3px;
+  border-bottom: 2px solid #ff0000;
+ color: aliceblue;
+    font-size: 17px;
+  }
+  
+  link:hover {
+    color: #f8f9fa;
+}

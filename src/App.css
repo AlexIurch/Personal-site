@@ -5,11 +5,11 @@
   font-family: 'Noto Sans', sans-serif;
 
   display: grid;
-  grid-template-rows: 96px  ;
+  grid-template-rows: 90px 1fr 90px;
   grid-template-areas: 
   "h h h"
   "m m m"
-  /* "f f f"; */
+  "f f f";
 }
 
 

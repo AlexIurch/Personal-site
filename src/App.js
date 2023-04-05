@@ -3,6 +3,8 @@ import Navigation from './components/navbar/Navbar'
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Main from './components/main/Main';
+import ScrollButton from './components/scrollButton/ScrollButton'
+import Footer from './components/footer/Footer';
 
 import { Routes, Route} from 'react-router-dom'
 
@@ -16,7 +18,8 @@ function App() {
           <Route exact path = "/about" element={<About/>}> </Route>
           <Route exact path = "/contact" element={<Contact />}> </Route>
         </Routes>
-     
+     <ScrollButton/>
+     <Footer/>
     </div>
   );
 }
