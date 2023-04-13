@@ -1,0 +1,211 @@
+.cards-block{
+  width: 95%;
+  margin: 0 auto;
+
+}
+
+.header-page{
+padding-top: 1em;
+text-align: center;
+}
+
+.card-block {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+    margin-top: 4em;
+    width: 100%;
+    justify-content: space-between;
+
+  }
+  
+  .photo-block {
+    width: 40%;
+    height: 250px;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+  }
+  
+  .info-block {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+  
+  .description {
+    padding-top: 0.5em;
+    margin-bottom: 2rem;
+    max-height: 170px;
+    overflow: auto;
+    text-align: justify;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+
+  .link-site,
+  .link-git {
+    border: 1px solid red;
+    background-color: #e9e1e1;
+    border: none;
+    width: 27%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .link-site a,
+  .link-git a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .link-site:hover,
+  .link-git:hover {
+    background-color: #ccc;
+  }
+
+  .bottomProjectsBlock{
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+
+  /* For screens smaller than 400px/////////////// */
+@media (max-width: 400px) {
+  .cards-block{
+    width: 100%;
+  }
+
+  .card-block {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0em;
+    width: 100%;
+    margin-bottom: 0em;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 0px;
+    /* padding-bottom: 1.5em; */
+  }
+  .photo-block {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 1em;
+  }
+  
+  .info-block {
+    width: 100%;
+    padding-left: 1em;
+  }
+  
+  .description {
+    max-height: 120px;
+    padding-right: 1em;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  .link-site,
+  .link-git {
+    width: 40%;
+    margin-bottom: 1em;
+  }
+}
+
+/* For screens between 400px and 800px */
+@media (min-width: 400px) and (max-width: 900px) {
+  .cards-block{
+    width: 90%;
+  }
+
+  .card-block {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    width: 100%;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 250px;
+    border-radius: 0px;
+    margin-bottom: 1em;
+    /* padding-bottom: 1.5em; */
+  }
+  .photo-block {
+    width: 100%;
+    max-width: 550px;
+    height: 260px;
+    margin-bottom: 1em;
+  }
+  
+  .info-block {
+    width: 100%;
+    padding-left: 1em;
+  }
+  
+  .description {
+    max-height: 150px;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  
+  .buttons {
+    
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-around;
+  }
+  .link-site,
+  .link-git {
+    width: 40%;
+    margin-bottom: 1em;
+  }
+}
+
+/* For screens between 800px and 1100px */
+/* @media (min-width: 800px) and (max-width: 1100px) {
+  .card-block {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+  }
+  
+  .photo-block {
+    width: 30%;
+    height: 250px;
+  }
+  
+  .info-block {
+    width: 65%;
+    padding-left: 1rem;
+  }
+  
+  .description {
+    max-height: 170px;
+  }
+  
+  .link-site,
+  .link-git {
+    width: 27%;
+    margin-bottom: 0;
+  }
+} */

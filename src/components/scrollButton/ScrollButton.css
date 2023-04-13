@@ -1,7 +1,7 @@
 .scrollTop {
     position: fixed;
     bottom: 4.6em;
-    right: 1.1em;
+    right: 1.2em;
     z-index: 9999;
     display: none;
     width: 40px;

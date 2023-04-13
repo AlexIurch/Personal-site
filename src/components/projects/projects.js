@@ -1,23 +1,38 @@
 import React from "react"
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import Card from "./components/Card"
-import data from "./data"
+import Card from "./Card"
+import data from "../data/data"
 
-export default function App() {
-    const cards = data.map(item => {
-        return (
+
+    function Projects() {
+        const cards = data.map((item) => {
+          return (
             <Card
-                key={item.id}
-                img={item.coverImg}
-                rating={item.stats.rating}
-                reviewCount={item.stats.reviewCount}
-                location={item.location}
-                title={item.title}
-                price={item.price}
-                openSpots={item.openSpots}
+              key={item.id}
+              img={item.coverImg}
+              description={item.description}
+              siteLink={item.siteLink}
+              gitLink={item.gitLink}
             />
+            
+          );
+        });
+console.log(data)
+        return (
+        
+
+
+        <div className = 'mainBlock'>
+          <h1 className="header-page">
+          <span className="colorText"> My </span>projects</h1>
+          <div className="cards-block">
+            {cards}
+          </div>          
+          <h3 className="bottomProjectsBlock">This page will be constantly updated with new projects ...</h3>
+          </div>
+        
         )
-    })        
+      }
     
-}
+
+
+export default Projects

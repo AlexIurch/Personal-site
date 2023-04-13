@@ -3,9 +3,10 @@
   height: 100%;
 
   font-family: 'Noto Sans', sans-serif;
+    margin: 0 auto;
 
   display: grid;
-  grid-template-rows: 90px 1fr 90px;
+  grid-template-rows: 90px 1fr 65px;
   grid-template-areas: 
   "h h h"
   "m m m"
